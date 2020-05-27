@@ -48,6 +48,7 @@
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
+  box-shadow: 0 2px lightgreen;
 }
 
 .follow-btn:hover{
@@ -55,8 +56,14 @@
   border-radius: 20px;
 }
 
+.follow-btn:active{
+  transform:translateY(2px);
+  box-shadow: none;
+}
+
 .ig{
   background-image: linear-gradient(#FF1780,#7A1A94);
+  box-shadow: 0 2px #DC297A;
 }
 
 .ig:hover{
@@ -67,7 +74,7 @@
   font-family: cursive;
   font-weight: 700;
   text-shadow: 1px 1px black;
-  margin: 5px auto 0px;
+  margin: 5px auto 0;
   padding-bottom: 50px;
   font-size: 0.8rem;
 }
